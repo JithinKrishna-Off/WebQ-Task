@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import CallSchedule, CallNotes
 
-# Register your models here.
+admin.site.register(CallSchedule)
+admin.site.register(CallNotes)
